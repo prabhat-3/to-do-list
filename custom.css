@@ -7,6 +7,11 @@ img{
     position: relative;
     left: 820px;
 }
+img:hover{
+    transform: scale(1.25);
+    transition:0.5s;
+}
+
 h1{
     text-align: center;
 }
@@ -44,7 +49,8 @@ main {
     height: 100vh;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    align-items: center;
+    
 }
 .box {
     width: 700px;
@@ -54,11 +60,6 @@ main {
     padding: 15px;
     margin:0;
 }
-.box:hover{
-    background-image:linear-gradient();
-    transition: 0.5s;
-}
-
 #item {
     padding: 10px;
     font-size: 20px;
